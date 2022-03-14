@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/x_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_iconmonstr_x_mark_7" />
+
+    <ImageButton
+        android:id="@+id/save_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_iconmonstr_download_2" />
+
+    <EditText
+        android:id="@+id/questionTextField"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter the Question Here" />
+
+    <EditText
+        android:id="@+id/answerTextField"
+        android:layout_width="match_parent"
+        android:layout_below="@id/questionTextField"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="Enter the Answer Here"/>
+
+</RelativeLayout>

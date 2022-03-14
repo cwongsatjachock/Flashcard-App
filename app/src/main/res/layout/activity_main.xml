@@ -28,4 +28,15 @@
         android:textSize="40sp"
         android:visibility="invisible"/>
 
+    <ImageButton
+        android:id="@+id/add_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_iconmonstr_plus_6" />
+
+
+
 </RelativeLayout>

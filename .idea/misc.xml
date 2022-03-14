@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/VictorsFlashcardApp/app/src/main/res/drawable-v24/answer_shape.xml" value="0.196" />
         <entry key="..\:/VictorsFlashcardApp/app/src/main/res/drawable-v24/question_shape.xml" value="0.196" />
+        <entry key="..\:/VictorsFlashcardApp/app/src/main/res/drawable/ic_iconmonstr_plus_6.xml" value="0.2475" />
+        <entry key="..\:/VictorsFlashcardApp/app/src/main/res/layout/activity_add_card.xml" value="0.266304347826087" />
         <entry key="..\:/VictorsFlashcardApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
